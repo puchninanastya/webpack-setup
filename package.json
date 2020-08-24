@@ -2,13 +2,9 @@
   "name": "webpack-setup",
   "version": "1.0.0",
   "author": "Anastasia Puchnina",
+  "license": "ISC",
   "description": "Webpack setup template for a React project",
-  "keywords": [
-    "webpack",
-    "config",
-    "template",
-    "react"
-  ],
+  "keywords": ["webpack", "config", "template", "react"],
   "seo": {
     "title": "Webpack setup template",
     "description": "Webpack setup template for a React project",
@@ -23,7 +19,6 @@
     "test": "jest",
     "analyze": "webpack --env=analyze"
   },
-  "license": "ISC",
   "dependencies": {
     "@babel/runtime": "7.11.2",
     "prop-types": "15.7.2",
