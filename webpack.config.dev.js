@@ -22,8 +22,7 @@ module.exports = {
     port: '3000',
     contentBase: path.resolve(__dirname, 'dist'),
     historyApiFallback: true,
-    hot: true,
-    overlay: true
+    hot: true
   },
   devtool: 'source-map',
   resolve: {
@@ -95,13 +94,6 @@ module.exports = {
         from: path.resolve(__dirname, 'pwa'),
         to: path.resolve(__dirname, TARGET_DIRNAME),
       }]
-    }),
-    new MiniCssExtractPlugin({
-      filename: 'css/[name].css',
-      options: {
-        hmr: true,
-        reloadAll: true
-      }
     }),
     new webpack.HotModuleReplacementPlugin()
   ]
