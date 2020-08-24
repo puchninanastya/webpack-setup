@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly with custom title 1`] = `
+<h1
+  className="header"
+>
+  Test title
+</h1>
+`;
+
+exports[`Header renders correctly with default title 1`] = `
+<h1
+  className="header"
+>
+  Hi there
+</h1>
+`;

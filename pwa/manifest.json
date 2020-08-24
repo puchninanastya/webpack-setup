@@ -1,0 +1,15 @@
+{
+  "short_name": "Webpack setup app",
+  "name": "My webpack setup template app",
+  "icons": [
+    {
+      "src":"icon.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#444",
+  "theme_color": "#444",
+  "display": "standalone"
+}
